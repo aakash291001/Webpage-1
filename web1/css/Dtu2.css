@@ -1,0 +1,146 @@
+html
+{
+	background-color: #fff;
+	background-color: aliceblue;
+
+
+}
+body{
+  max-width: 1200px;
+  margin: auto;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 15px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 0;
+  
+  box-sizing: border-box;
+}
+
+header
+{
+	background-color: white;
+	padding: 10px 5px 0px 10px;
+	width: 1165px;
+	height: 150px;
+	text-align: center;
+	background-image: url(../Photos/color-tile.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+article
+{
+	
+}
+.navigation
+{
+	float: left;
+}
+.navigation ul
+{
+	padding: 0;
+}
+.navigation li
+{
+	list-style: none; /* Removes dots*/
+	float: right;
+	padding: 0 5px 0 0;
+	position: relative;
+}
+.navigation a
+{
+	text-decoration-line: none;
+	color: greenyellow;
+	padding : 5px 48px 6px 5px;
+	background-color: cornflowerblue;
+}
+.navigation a:hover/* when we take the cursor on th link it will show a color*/ 
+{
+	background-color: lightblue;
+}
+.pic
+{
+	float: left;
+}
+.Pic1
+{
+	width: 50%;
+	height: 400px;
+	padding: 0px 10px 10px 0;
+	box-sizing: border-box;
+}
+.imp
+{
+	float: right;
+	width: 50%;
+	height: 390px;
+	
+	background-image: linear-gradient(to bottom,olivedrab, #e6ffe6);
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	text-decoration: underline;
+}
+.navigation2
+{
+	float: left;
+}
+.navigation2 li
+{
+	list-style: none;
+	text-align: left;
+	line-height: 2.0;
+}
+.vid
+{
+	float: right;
+	width: 50%;
+	padding-right: 10px;
+	box-sizing: border-box;
+
+}
+.navigation3
+{
+	float: left;
+	text-align: center;
+}
+.navigation3 ul
+{
+
+}
+.navigation3 li
+{
+	list-style: none; /* Removes dots*/
+	float: left; /*brings them in single line*/
+
+}
+.navigation3 a
+{
+	display: block;
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	text-decoration-line: none;
+	background-image: url(../Photos/sprites.png);
+	text-indent: -9999px;/*space before paragraph in this it is to large */
+	background-repeat: no-repeat;
+}
+.nav2 a
+{
+	background-position: 0 -50px; /* positon of background horizontally 0px and verically 50px down */ 
+}
+.nav3 a
+{
+	background-position: 0 -100px;
+}
+.nav1 a:hover
+{
+	background-position: -50px 0;
+}
+.nav2 a:hover
+{
+	background-position: -50px -50px;
+}
+.nav3 a:hover
+{
+	background-position: -50px -100px;
+}
